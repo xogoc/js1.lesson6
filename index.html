@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js1.lesson6</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gallery.js" defer></script>
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <button id="prev">&lt;</button>
+    <div id="big_picture"></div>
+    <button id="next">&gt;</button>
+
+    <div id="gallery">
+        <img src="img/1.jpg" alt="Image 1" id="image1" />
+        <img src="img/2.jpg" alt="Image 2" id="image2" />
+        <img src="img/3.jpg" alt="Image 3" id="image3" />
+        <img src="img/4.jpg" alt="Image 4" id="image4" />
+    </div>
+
+    <div class="shop">
+        <div class="products">
+            <h2>Товары</h2>
+            <p id="prod1"><span id="prod1_name">Товар 1</span> $<span id="prod1_price">1.23</span> <button id="prod1_buy">Купить</button></p>
+            <p id="prod2"><span id="prod2_name">Товар 2</span> $<span id="prod2_price">4.56</span> <button id="prod2_buy">Купить</button></p>
+            <p id="prod3"><span id="prod3_name">Товар 3</span> $<span id="prod3_price">7.89</span> <button id="prod3_buy">Купить</button></p>
+        </div>
+        <div class="cart">
+            <h2>Корзина</h2>
+            <div id="cart"></div>
+            <p>Итого: <span id="total">$0.00</span></p>
+        </div>
+    </div>
+</body>
+</html>
